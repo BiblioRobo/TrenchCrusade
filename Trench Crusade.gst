@@ -44,6 +44,7 @@
     <categoryEntry name="Negate Barbed wire" id="aa2f-f4b3-3003-4b43" hidden="false">
       <description>Negate difficult and dangerous terrain caused by barbed wire</description>
     </categoryEntry>
+    <categoryEntry name="Ignore Off-Hand" id="1091-f053-40a4-1681" hidden="false"/>
   </categoryEntries>
   <costTypes>
     <costType name="Ducats" id="8d43-33fd-332d-17a6" defaultCostLimit="-1"/>
@@ -851,7 +852,10 @@ Deadly Embrace: Enemy models cannot retreat if they are within 1&quot; of a mode
         <characteristic name="Type" typeId="f90e-171a-4ca6-3845">2-handed</characteristic>
         <characteristic name="Range" typeId="31a7-b5e8-41dc-5fd1">Melee</characteristic>
         <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">-</characteristic>
-        <characteristic name="Rules" typeId="87f0-637b-734a-22eb">Agonising Injuries: When you make an Injury Roll for an attack made with a Torture Instrument, roll 1D6 instead of 2D6, but then double the number of BLOOD MARKERS that are caused by the roll (if there are any). Any +INJURY DICE or -INJURY DICE that applied to the Injury Roll will apply normally, except that you pick the single highest or lowest dice in the roll instead of the 2 highest or lowest. Note that when you make a Bloodbath Roll for an attack made with a Torture Instrument, you only roll 2D6 instead of 3D6, but you can then double the number of BLOOD MARKERS that are caused by the roll.</characteristic>
+        <characteristic name="Rules" typeId="87f0-637b-734a-22eb">Agonising Injuries: When you make an Injury Roll for an attack made with a Torture Instrument, roll 1D6 instead of 2D6, but then double the number of BLOOD MARKERS that are caused by the roll (if there are any). Any +INJURY DICE or -INJURY DICE that applied to the Injury Roll will apply normally, except that you pick the single highest or lowest dice in the roll instead of the 2 highest or lowest. Note that when you make a Bloodbath Roll for an attack made with a Torture Instrument, you only roll 2D6 instead of 3D6, but you can then double the number of BLOOD MARKERS that are caused by the roll.
+
+
+Down, Whelp: If an attack made with a Torture Instrument targets a friendly model and the Success Roll is a Success or a Critical Success, do not roll on the Injury Table. Instead, the targeted friendly model is taken Down (the Agonising Injuries special rule still applies to this Injury Result).</characteristic>
       </characteristics>
     </profile>
     <profile name="Arquebus" typeId="090c-b12e-592a-9874" typeName="Weapon" hidden="false" id="39a3-6b2f-e1cf-8775" publicationId="c658-4a10-e1fe-befc" page="116">

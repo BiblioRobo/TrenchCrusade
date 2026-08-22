@@ -22,7 +22,7 @@
         <entryLink import="true" name="Ammunitions" hidden="false" id="8091-24a5-543e-d657" type="selectionEntryGroup" targetId="a7db-7c08-54bb-880e"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Automatic Pistol" hidden="false" id="f294-f3b2-5577-bc17">
+    <selectionEntry type="upgrade" import="true" name="Automatic Pistol" hidden="true" id="f294-f3b2-5577-bc17">
       <profiles>
         <profile name="Automatic Pistol" typeId="090c-b12e-592a-9874" typeName="Weapon" hidden="false" id="b71e-ef7c-e836-72ec">
           <characteristics>
@@ -170,7 +170,7 @@
         <profile name="Heavy Flamethrower" typeId="090c-b12e-592a-9874" typeName="Weapon" hidden="false" id="b8e5-9d0c-ebd4-8208">
           <characteristics>
             <characteristic name="Type" typeId="f90e-171a-4ca6-3845">2-Handed</characteristic>
-            <characteristic name="Range" typeId="31a7-b5e8-41dc-5fd1">8&quot;</characteristic>
+            <characteristic name="Range" typeId="31a7-b5e8-41dc-5fd1">10&quot;</characteristic>
             <characteristic name="Keywords" typeId="8cd6-8018-f2da-5ede">-1 INJURY DICE, AUTOMATIC 2, FIRE, FLAMETHROWER, HEAVY, IGNORE ARMOUR</characteristic>
             <characteristic name="Rules" typeId="87f0-637b-734a-22eb"/>
           </characteristics>

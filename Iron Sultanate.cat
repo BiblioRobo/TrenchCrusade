@@ -2664,7 +2664,7 @@ Once a Ranged Attack has been made with this weapon, It cannot be used again.</c
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Machine Armour" hidden="false" id="c1fa-c327-3411-9462" type="selectionEntry" targetId="08af-f2b9-fe8b-cfb1" sortIndex="4">
+        <entryLink import="true" name="Machine Armour" hidden="true" id="c1fa-c327-3411-9462" type="selectionEntry" targetId="08af-f2b9-fe8b-cfb1" sortIndex="4">
           <costs>
             <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="50"/>
           </costs>

@@ -690,6 +690,11 @@ For the purpose of Battle Demolition on Combat Engineers, this item counts as a 
                 <condition type="instanceOf" value="1" field="selections" scope="model" childId="3523-c775-3603-dbeb" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="set" value="2" field="c875-6722-ae0d-ce67">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="9b8f-4361-5f23-2e20" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="roster" shared="true" id="c875-6722-ae0d-ce67" includeChildSelections="true" includeChildForces="true"/>
