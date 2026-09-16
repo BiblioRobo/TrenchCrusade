@@ -22,7 +22,7 @@
         <entryLink import="true" name="Ammunitions" hidden="false" id="8091-24a5-543e-d657" type="selectionEntryGroup" targetId="a7db-7c08-54bb-880e"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Automatic Pistol" hidden="true" id="f294-f3b2-5577-bc17">
+    <selectionEntry type="upgrade" import="true" name="Automatic Pistol" hidden="false" id="f294-f3b2-5577-bc17">
       <profiles>
         <profile name="Automatic Pistol" typeId="090c-b12e-592a-9874" typeName="Weapon" hidden="false" id="b71e-ef7c-e836-72ec">
           <characteristics>

@@ -504,7 +504,7 @@
             </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Automatic Pistol" hidden="false" id="a11d-107d-3cb0-2ebb" type="selectionEntry" targetId="f294-f3b2-5577-bc17" sortIndex="3">
+        <entryLink import="true" name="Automatic Pistol" hidden="true" id="a11d-107d-3cb0-2ebb" type="selectionEntry" targetId="f294-f3b2-5577-bc17" sortIndex="3">
           <costs>
             <cost name="Ducats" typeId="8d43-33fd-332d-17a6" value="20"/>
           </costs>
