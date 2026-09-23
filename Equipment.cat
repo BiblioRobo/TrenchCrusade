@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Battlekits" id="f044-03b4-6607-1152" battleScribeVersion="2.03" gameSystemId="sys-4f3d-c5c9-7df1-ad01" gameSystemRevision="16" library="true" revision="1" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Battlekits" id="f044-03b4-6607-1152" battleScribeVersion="2.03" gameSystemId="sys-4f3d-c5c9-7df1-ad01" gameSystemRevision="16" library="true" revision="2" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry name="Trench Shield" id="ab45-1e00-df56-dbda" hidden="false" import="true" type="upgrade">
       <constraints>
@@ -19,13 +19,20 @@
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Reinforced Armour" id="a535-4fb6-c587-691a" hidden="false" import="true" type="upgrade">
+    <selectionEntry name="Reinforced Armour" id="a535-4fb6-c587-691a" hidden="true" import="true" type="upgrade">
       <constraints>
         <constraint id="1d07-a4db-bb42-fcb0" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
       </constraints>
       <infoLinks>
         <infoLink name="+/- Injury Modifier" id="e518-2d53-5326-d715" hidden="false" targetId="3f79-aee7-2c3d-828f" type="rule"/>
       </infoLinks>
+      <modifiers>
+        <modifier field="hidden" type="set" value="false">
+          <conditions>
+            <condition childId="3de0-192c-3ec2-51be" childName="Elite" field="selections" scope="model" shared="true" type="instanceOf" value="1"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile name="Reinforced Armour" id="33ed-6314-e75f-8982" hidden="false" selectable="true" typeId="7079-589c-df69-fa7e" typeName="Battlekit">
           <characteristics>
